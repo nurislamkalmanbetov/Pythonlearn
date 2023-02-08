@@ -1,0 +1,26 @@
+Тип данных : Буул, инт, флоат, стринг
+_____________________________________________________________________
+input - Возвращает строку
+tuple - кортедж
+_____________________________________________________________________
+Изменяемые - списки, словари, сеты,
+Неизменяемые - Инт, флоат, бул стринг, тапл фрозенсет, set, кортедж
+_____________________________________________________________________
+list_methods = {append(), clear(),copy(),count(),extend(),index(),insert(),pop(),
+                remove(),reverse(),sort()}
+
+tuple_methods = {'count()', 'index()'}
+
+set_metods = {"add", "clear", "copy", "difference", "difference_update", "discard", "intersection",
+               "intersection_update", "isdisjoint", "issubset", "issuperset", "pop", "remove", "symmetric_difference",
+               "symmetric_difference_update", "union", "update", "min()","max()"}
+
+dict_metods = {"clear", "copy", "fromkeys", "get", "items", "keys",
+                "pop", "popitem", "setdefault", "update", "values"}
+
+_____________________________________________________________________
+встроенные функции - open(). max() min() len() eval()
+_____________________________________________________________________
+OS - модуль os - для работы с интерпретатором
+_____________________________________________________________________
+
