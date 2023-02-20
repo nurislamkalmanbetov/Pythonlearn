@@ -61,7 +61,7 @@
 #         login,password = result
 #         refreshed_login = [ord(char) for char in login] # char - это *args,**kwargs
 #         refreshed_password = [ord(char) for char in password]
-#         return refreshed_login,refreshed_password
+#         return (f"Зашифрованный логин - {refreshed_login} '\n',Зашифрованный Пароль - {refreshed_password}")
 #     return wrapper
 #
 # @coding_passwords
@@ -70,8 +70,8 @@
 #     password = input("Введите пароль: ")
 #     return login, password
 #
-# a = login_password()
-# print(a)
+# login_password1 = login_password()
+# print(login_password1)
 # ___________________________________________________________________________________________________________
 # 7
 # Создайте lambda функцию которая принимает одно число и возвращает это число умноженное на 1.185. Вам дан список
